@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container-chat{
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+    overflow-y: auto;
+    width: 20%;
+}
+.container-chat img{
+    width: 50px;
+    height: 50px;
+    border-radius: 3rem;
+}
+.chats-2{
+    border: solid 1px #E8EBE4;
+}
+button{
+    width: 14rem;
+    padding-bottom: 1px;
+    background-color: #A491D2;
+    color: #fff;
+    border-top: solid 1px #E8EBE4;
+}
+.perfil{
+    border: solid 1px #E8EBE4;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+.perfil-1{
+    display: flex;
+}
+.perfil-1 h3{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+.perfil-1 p{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    color: #bec1bb;
+}
+.icons{
+    padding-right: 15px;
+}
+.icons i{
+    padding: 10px;
+    font-size: 20px;
+    color: #BEC1BB;
+}
+button{
+    border-top: solid 1px gray;
+}
+.main-chat{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color:#E8EBE4;
+}
+.container{
+    display: flex;
+}
+.network{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.network h1{
+    font-size: 70px;
+    font-weight:500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.network p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.caja-boton{
+    padding: 15%;
+}
+.main-chat img{
+    width: 85%;
+    max-width: 450px;
+}
+.chats-2{
+    padding-left: 6px;
+    display: flex;
+    margin: 0;
+    padding: 15px 0 15px 0;
+    padding-left: 15px;
+    transition: all .1000s;
+}
+.chats-2:hover{
+    background-color: turquoise;
+    transform: scale(1.07);
+    border: 2px solid red;
+}
+.chat-minibox h3{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+.chat-minibox p{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
